@@ -11,6 +11,6 @@ notifications:
   email: false
 
 script:
-  - npm run lint
+  - set -e && npm run lint
   - npm run build
   - bash ./.travis/gh-pages.sh
