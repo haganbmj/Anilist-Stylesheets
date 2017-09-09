@@ -1,3 +1,25 @@
 files:
   ignore:
     - 'node_modules/**/*'
+    - 'src/other/**/*'
+rules:
+  # Line Spacing
+  single-line-per-selector: 0
+
+  # Disallows
+  no-color-literals: 0
+  no-ids: 0
+  no-qualifying-elements: 0
+  no-url-domains: 0
+  no-url-protocols: 0
+
+  # Name Formats
+  class-name-format: 0
+  id-name-format: 0
+
+  # Style Guide
+  indentation:
+    - 1
+    - 
+      size: 4
+  property-sort-order: 0

@@ -1,0 +1,54 @@
+// sass-lint:disable force-element-nesting, force-attribute-nesting, force-pseudo-nesting, no-important
+
+div.noti,
+div.noti .noti_row,
+.noti:nth-of-type(2n) {
+    background: $secondary-bg-color;
+    color: $primary-font-color;
+}
+
+div.noti {
+    border: 1px solid $primary-accent-color;
+    border-bottom: 0;
+    height: auto;
+    min-height: 20px;
+    max-height: 350px;
+}
+
+div.noti .noti_row {
+    border-bottom: 1px solid $primary-accent-color;
+    padding-bottom: 10px;
+}
+
+div.noti .noti__link b {
+    color: $primary-accent-color;
+}
+
+div.noti .time-ago {
+    color: $primary-font-color;
+    bottom: 1px;
+}
+
+div.noti .fa-times {
+    /*! The Exit Button */
+    color: $primary-font-color;
+    margin-left: 282px;
+    padding: 2px;
+}
+
+div.noti .fa-times:hover {
+    color: $primary-accent-color;
+}
+
+div.noti_row.clearfix:hover,
+div.noti_row:hover a {
+    color: $primary-accent-color;
+}
+
+div.noti_row.clearfix:hover {
+    background-color: rgba(248, 248, 255, .2);
+}
+
+div.noti .noti_row.unread {
+    background: $secondary-accent-color;
+}

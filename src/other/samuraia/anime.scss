@@ -4,12 +4,12 @@
 
 /* Fonts */
 /* Calligraffitti */
-@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+@import 'http://fonts.googleapis.com/css?family=Calligraffitti';
 
 /* Open Sans */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import 'http://fonts.googleapis.com/css?family=Open+Sans';
 
-body{background: url(http://wallpoper.com/images/00/29/35/95/gintama_00293595.jpg) no-repeat center center fixed; 
+body{background: url('http://wallpoper.com/images/00/29/35/95/gintama_00293595.jpg') no-repeat center center fixed;
 background-size: cover;}
 #list_header {display:none;} /* remove top bar */
 .tag_airing {display:none;} /* remove airing Tag */
@@ -73,7 +73,7 @@ background-size: cover;}
 }
 
 
-table 
+table
 {
 	background-color:rgba(179, 179, 179, 0.86); /* List Color */
 }
@@ -106,7 +106,7 @@ table
     font-family: 'Open Sans', sans-serif;
 }
 
-.list tr:hover 
+.list tr:hover
 {
   color:#FFF;
   background-color:rgba(63, 63, 63, 1);
@@ -148,7 +148,7 @@ table
   top: 140px;
   height: 350px;
   font-size: 0;
-  width: calc( 350px * 0.67771084337); 
+  width: calc( 350px * 0.67771084337);
   margin-left: 170px;
   box-shadow: 4px 4px 8px rgba(0,0,0,.3);
 }
@@ -173,7 +173,7 @@ table
 {
   display:none;
 }
-  
+
 
 .list__tag i
 {
@@ -181,14 +181,14 @@ table
 }
 
 
-  
+
 .hint--notes
 {
   height:auto;
   width:450px !important;
   font-size:1.3em;
   text-align:left;
-  border-radius:0px; 
+  border-radius:0px;
   padding:10px;
   background-color:rgba(179, 179, 179, 0.86);
   box-shadow:4px 4px 8px rgba(0,0,0,.3);
@@ -203,7 +203,7 @@ table
 }
 
 .udelete
-{ 
+{
   display: none !important;
 }
 
@@ -224,98 +224,98 @@ table
 
 /*  */
 .se .row__type:after {
-background: url();
+background: url('');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /*6.11 */
 
 /* Gugure! Kokkuri-san */
 .se20656 .row__type:after {
-background: url(http://gdurl.com/w-dq);
+background: url('http://gdurl.com/w-d');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Hitsugi no Chaika */
 .se20719 .row__type:after {
-background: url(http://gdurl.com/6rpa);
+background: url('http://gdurl.com/6rp');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Donten ni Warau */
 .se20817 .row__type:after {
-background: url(http://gdurl.com/FqAt);
+background: url('http://gdurl.com/FqA');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 
 /* Fate/stay night */
 .se19603 .row__type:after {
-background: url(http://gdurl.com/Bk7X);
+background: url('http://gdurl.com/Bk7');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Girlfriend (Kari) */
 .se20757 .row__type:after {
-background: url(http://gdurl.com/aTqh);
+background: url('http://gdurl.com/aTq');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Amagi Brilliant Park */
 .se20602 .row__type:after {
-background: url(http://gdurl.com/s1qp);
+background: url('http://gdurl.com/s1q');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Cross Ange */
 .se20806 .row__type:after {
-background: url(http://gdurl.com/H5bI);
+background: url('http://gdurl.com/H5b');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Daitoshokan no Hitsujikai */
 .se17827 .row__type:after {
-background: url(http://gdurl.com/RFqd);
+background: url('http://gdurl.com/RFq');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Danna ga Nani */
 .se20735 .row__type:after {
-background: url(http://gdurl.com/4NnA);
+background: url('http://gdurl.com/4Nn');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Denki-Gai */
 .se20710 .row__type:after {
-background: url(http://gdurl.com/rYvh);
+background: url('http://gdurl.com/rYv');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 
 /* Akatsuki no Yona */
 .se20770 .row__type:after {
-background: url(http://gdurl.com/77yL);
+background: url('http://gdurl.com/77y');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 
 /* 6.10 */
 
 /* Grisaia */
 .se17729 .row__type:after {
-background: url(http://gdurl.com/LTIX);
+background: url('http://gdurl.com/LTI');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
 }
@@ -325,467 +325,467 @@ box-shadow:4px 4px 8px rgba(0,0,0,.3);
 
 /* Another */
 .se11111 .row__type:after {
-background: url(http://gdurl.com/MjoU);
+background: url('http://gdurl.com/Mjo');
 background-size: cover;
-box-shadow:4px 4px 8px rgba(0,0,0,.3);} 
+box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Aoi Bunkagu Series */
 .se7193 .row__type:after {
-background: url(http://gdurl.com/AIu5);
+background: url('http://gdurl.com/AIu');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Baccano! */
 .se2251 .row__type:after {
-background: url(http://gdurl.com/Kqzo);
+background: url('http://gdurl.com/Kqz');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Black Bullet */
 .se20457 .row__type:after {
-background: url(http://gdurl.com/cavO);
+background: url('http://gdurl.com/cav');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Code Geass */
 .se1575 .row__type:after {
-background: url(http://gdurl.com/5fqJ);
+background: url('http://gdurl.com/5fq');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Code Geass (2) */
 .se2904 .row__type:after {
-background: url(http://gdurl.com/vdtu);
+background: url('http://gdurl.com/vdt');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Dantalion no Shoka */
 .se8915 .row__type:after {
-background: url(http://gdurl.com/ZphA);
+background: url('http://gdurl.com/Zph');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Darker than Black */
 .se2025 .row__type:after {
-background: url(http://gdurl.com/JBQQ);
+background: url('http://gdurl.com/JBQ');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Darker Than Black: Ryuusei no Gemini */
 .se6573 .row__type:after {
-background: url(http://gdurl.com/JBQQ);
+background: url('http://gdurl.com/JBQ');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Durarara!! */
 .se6746 .row__type:after {
-background: url(http://gdurl.com/tlfE);
+background: url('http://gdurl.com/tlf');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Elfen Lied */
 .se226 .row__type:after {
-background: url(http://gdurl.com/MU9v);
+background: url('http://gdurl.com/MU9');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 
 /* Fairy Tail */
 .se6702 .row__type:after {
-background: url(http://gdurl.com/SAG5);
+background: url('http://gdurl.com/SAG');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Gintama */
 .se918 .row__type:after {
-background: url(http://gdurl.com/EMXk);
+background: url('http://gdurl.com/EMX');
 background-size: cover;
-box-shadow:4px 4px 8px rgba(0,0,0,.3);} 
+box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Gintama: Shinyaku Benizakura-hen */
 .se7472 .row__type:after {
-background: url(http://gdurl.com/hKWK);
+background: url('http://gdurl.com/hKW');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Kuroshitsuji */
 .se4898 .row__type:after {
-background: url(http://gdurl.com/QSIq);
+background: url('http://gdurl.com/QSI');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Little Busters */
 .se13655 .row__type:after {
-background: url(http://gdurl.com/KZS4);
+background: url('http://gdurl.com/KZS');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Mahou Shoujo Madoka Magica */
 .se9756 .row__type:after {
-background: url(http://gdurl.com/MtTt);
+background: url('http://gdurl.com/MtT');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Mirai Nikki */
-.se10620 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/IN-4);
-background-size: cover;} 
+.se10620 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/IN-');
+background-size: cover;}
 
 /* Mousou Dairinin */
-.se323 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/FSYm);
-background-size: cover;} 
+.se323 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/FSY');
+background-size: cover;}
 
 /* Mushishi */
-.se457 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/P-3n);
-background-size: cover;} 
+.se457 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/P-3');
+background-size: cover;}
 
 /* Mishishi Zoky Shou */
-.se20595 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/btaq);
-background-size: cover;} 
+.se20595 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/bta');
+background-size: cover;}
 
 
 /* Spice and wolf */
 .se2966 .row__type:after {
-background: url(http://gdurl.com/hpBw);
+background: url('http://gdurl.com/hpB');
 background-size: cover;
-box-shadow:4px 4px 8px rgba(0,0,0,.3);} 
+box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Spice and Wolf 2 */
 .se5341 .row__type:after {
-background: url(http://gdurl.com/b1dA);
+background: url('http://gdurl.com/b1d');
 background-size: cover;
-box-shadow:4px 4px 8px rgba(0,0,0,.3);} 
+box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* Plastic Nee-san */
 .se10711 .row__type:after {
-background: url(http://gdurl.com/rIsV);
+background: url('http://gdurl.com/rIs');
 background-size: cover;
-box-shadow:4px 4px 8px rgba(0,0,0,.3);} 
+box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* RDG : Red Data Girl */
 .se14921 .row__type:after {
-background: url(http://gdurl.com/FWv6);
+background: url('http://gdurl.com/FWv');
 background-size: cover;
-box-shadow:4px 4px 8px rgba(0,0,0,.3);} 
+box-shadow:4px 4px 8px rgba(0,0,0,.3);}
 
 /* 30.08 */
 
 /* Noragami */
 .se20447 .row__type:after {
-background: url(http://gdurl.com/9p3A);
+background: url('http://gdurl.com/9p3');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Non Non Biyori */
 .se17549 .row__type:after {
-background: url(http://gdurl.com/VBTA);
+background: url('http://gdurl.com/VBT');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
 }
 
 /* No Game No Life */
 .se19815 .row__type:after {
-background: url(http://gdurl.com/T4hs);
+background: url('http://gdurl.com/T4h');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Nisemonogatari */
 .se11597 .row__type:after {
-background: url(http://gdurl.com/sKx6);
+background: url('http://gdurl.com/sKx');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Nisekoi */
 .se18897 .row__type:after {
-background: url(http://gdurl.com/cQKi);
+background: url('http://gdurl.com/cQK');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Monogatari Series */
 .se17074 .row__type:after {
-background: url(http://gdurl.com/qmFR);
+background: url('http://gdurl.com/qmF');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Mangaka-san to Assistant-san to */
 .se20537 .row__type:after {
-background: url(http://gdurl.com/1-c2);
+background: url('http://gdurl.com/1-c');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Log Horizon  */
 .se17265 .row__type:after {
-background: url(http://gdurl.com/1tWn);
+background: url('http://gdurl.com/1tW');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* ef: A Tale of Memories.  */
 .se2924 .row__type:after {
-background: url(http://gdurl.com/ansq);
+background: url('http://gdurl.com/ans');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Danshi Koukousei no Nichijou */
 .se11843 .row__type:after {
-background: url(http://gdurl.com/awgL);
+background: url('http://gdurl.com/awg');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* older than 30.8 */
 .se16732 .row__type:after {
-background: url(http://gdurl.com/0J1u);
+background: url('http://gdurl.com/0J1');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se8841 .row__type:after {
-background: url(http://gdurl.com/ZsPE);
+background: url('http://gdurl.com/ZsP');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se10790  .row__type:after {
-background: url(http://gdurl.com/601c);
+background: url('http://gdurl.com/601');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se20529 .row__type:after {
-background: url(http://gdurl.com/fgtx);
+background: url('http://gdurl.com/fgt');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se18679 .row__type:after {
-background: url(http://gdurl.com/JcrP);
+background: url('http://gdurl.com/Jcr');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se5680 .row__type:after {
-background: url(http://gdurl.com/2svz);
+background: url('http://gdurl.com/2sv');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se9617 .row__type:after {
-background: url(http://gdurl.com/Phz2);
+background: url('http://gdurl.com/Phz');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se7791  .row__type:after {
-background: url(http://gdurl.com/ceZA);
+background: url('http://gdurl.com/ceZ');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se15809 .row__type:after {
-background: url(http://gdurl.com/t4OU);
+background: url('http://gdurl.com/t4O');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se17895 .row__type:after {
-background: url(http://gdurl.com/ipFx);
+background: url('http://gdurl.com/ipF');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se11741 .row__type:after {
-background: url(http://gdurl.com/gMxC);
+background: url('http://gdurl.com/gMx');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se10087 .row__type:after {
-background: url(http://gdurl.com/DZsw);
+background: url('http://gdurl.com/DZs');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se790 .row__type:after {
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/88RG);
+background: url('http://gdurl.com/88R');
 background-size: cover;
-} 
+}
 
 
 .se5081 .row__type:after {
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/f3H6);
+background: url('http://gdurl.com/f3H');
 background-size: cover;}
 
 
 .se12189 .row__type:after {
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/e26m);
+background: url('http://gdurl.com/e26');
 background-size: cover;}
 
 
-.se20462 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/VJQj);
+.se20462 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/VJQ');
 background-size: cover;}
 
-.se14131 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);  
-background: url(http://gdurl.com/Hkss);
+.se14131 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/Hks');
 background-size: cover;}
 
 
 .se9379 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/e8mp);
+background: url('http://gdurl.com/e8m');
 background-size: cover;}
 
 .se20031 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/AnBv);
+background: url('http://gdurl.com/AnB');
 background-size: cover;}
 
-.se18671 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/8isn);
+.se18671 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/8is');
 background-size: cover;}
 
-.se14741 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/FndT);
+.se14741 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/Fnd');
 background-size: cover;}
 
-.se10165 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/EcXk);
+.se10165 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/EcX');
 background-size: cover;}
 
 .se16001 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/bwYu);
+background: url('http://gdurl.com/bwY');
 background-size: cover;}
 
 .se11887 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/bwYu);
+background: url('http://gdurl.com/bwY');
 background-size: cover;}
 
 .se4181 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/gcc5);
+background: url('http://gdurl.com/gcc');
 background-size: cover;}
 
 .se16049 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/unc4);
+background: url('http://gdurl.com/unc');
 background-size: cover;}
 
 .se6213 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/zw0I);
+background: url('http://gdurl.com/zw0');
 background-size: cover;}
 
-.se889 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/Ou7P);
+.se889 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/Ou7');
 background-size: cover;}
 
 .se477 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/Zm8Z);
+background: url('http://gdurl.com/Zm8');
 background-size: cover;}
 
-.se18893 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/m6rY);
+.se18893 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/m6r');
 background-size: cover;}
 
-.se9989 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/CvRN);
+.se9989 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/CvR');
 background-size: cover;}
 
 .se6547 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/vH8i);
+background: url('http://gdurl.com/vH8');
 background-size: cover;}
 
 
 .se20661 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/Ku0f);
+background: url('http://gdurl.com/Ku0');
 background-size: cover;}
 
 
 .se20605 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/s8nj);
+background: url('http://gdurl.com/s8n');
 background-size: cover;}
 
 
 .se19199 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/ABvX);
+background: url('http://gdurl.com/ABv');
 background-size: cover;}
 
 .se20663 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/gnVg);
+background: url('http://gdurl.com/gnV');
 background-size: cover;}
 
 
 .se20475 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/79Ax);
+background: url('http://gdurl.com/79A');
 background-size: cover;}
 
 
-.se20638 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/lPQn);
+.se20638 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/lPQ');
 background-size: cover;}
 
-.se20708 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/BKXS);
+.se20708 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/BKX');
 background-size: cover;}
 
 
-.se20458 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3); 
-background: url(http://gdurl.com/jPrY);
-background-size: cover;} 
+.se20458 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
+background: url('http://gdurl.com/jPr');
+background-size: cover;}
 
 
 .se20634 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/arGT);
-background-size: cover;} 
+background: url('http://gdurl.com/arG');
+background-size: cover;}
 
 
 .se20575 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/MqOO);
-background-size: cover;} 
+background: url('http://gdurl.com/MqO');
+background-size: cover;}
 
 
 .se20645 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/E7kM);
-background-size: cover;} 
+background: url('http://gdurl.com/E7k');
+background-size: cover;}
 
 
 .se20668 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/p4XG);
-background-size: cover;} 
+background: url('http://gdurl.com/p4X');
+background-size: cover;}
 
 /*Akame ga Kill */
  .se20613 .row__type:after {
-background: url(http://gdurl.com/xBRW);
+background: url('http://gdurl.com/xBR');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 /* Fate Kaleid */
  .se20467 .row__type:after {
-background: url(http://gdurl.com/S8KD);
+background: url('http://gdurl.com/S8K');
 background-size: cover;
 box-shadow:4px 4px 8px rgba(0,0,0,.3);
-} 
+}
 
 .se20722 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/20f8);
-background-size: cover;} 
+background: url('http://gdurl.com/20f');
+background-size: cover;}
 
 
 .se20632 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/03Yx);
-background-size: cover;} 
+background: url('http://gdurl.com/03Y');
+background-size: cover;}
 
 
 .se20517 .row__type:after { box-shadow:4px 4px 8px rgba(0,0,0,.3);
-background: url(http://gdurl.com/glwM);
-background-size: cover;}  
+background: url('http://gdurl.com/glw');
+background-size: cover;}

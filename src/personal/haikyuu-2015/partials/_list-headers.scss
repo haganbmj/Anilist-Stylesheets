@@ -1,0 +1,30 @@
+#lists>div>h3 {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 0;
+    height: 40px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#watching {
+    background-image: url('https://dl.dropboxusercontent.com/s/0rmd1cf4vm6uot8/watching.png');
+}
+
+#completed {
+    background-image: url('https://dl.dropboxusercontent.com/s/2wpbvhwke31yaj6/completed.png');
+}
+
+#onhold {
+    background-image: url('https://dl.dropboxusercontent.com/s/vy0ultr7ty71hjy/on_hold.png');
+}
+
+#dropped {
+    background-image: url('https://dl.dropboxusercontent.com/s/byl7jm9rjcl1yiq/dropped.png');
+}
+
+#plantowatch {
+    background-image: url('https://dl.dropboxusercontent.com/s/5rghnzp3ceoa7bl/plan_to_watch.png');
+}

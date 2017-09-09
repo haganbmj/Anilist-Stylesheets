@@ -3,7 +3,7 @@ set -o errexit -o nounset
 
 if [[ "$TRAVIS_PULL_REQUEST" != "false" ]] || [[ "$TRAVIS_BRANCH" != "master" ]]
 then
-  echo "Skipping $TARGET_BRANCH update."
+  echo "Skipping gh-pages update."
   exit 0
 fi
 
