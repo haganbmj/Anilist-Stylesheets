@@ -11,21 +11,65 @@ body{background: url(http://wallpoper.com/images/00/29/35/95/gintama_00293595.jp
 background-size: cover;}
 #list_header {display:none;} /* remove top bar */
 .tag_airing {display:none;} /* remove airing Tag */
-nav 
+
+
+/* Hiding the nav bar off to the side when not hovered over */
+.nav {
+    /* Sets how far the nav bar moves from its default position */
+    margin-left: -45px;
+
+    /* Add a small transition so it slides in more smoothly */
+    transition: 0.20s;
+}
+
+.nav:hover {
+    margin-left: 0;
+}
+
+
+/* These are each styled individually */
+.nav, .nav__notifications, .nav__footer
 {
   background: #272727;
 }
 
+/* For some reason these are directly styled and discord is entirely different */
+/* Removes the default teal/blue styling from the navigation text */
+.nav__sml, .nav__logo,
+.nav__links div, .nav__links a:hover,
+.nav__sml:hover, .nav__links span:hover,
+.nav__links a:hover div,
+.nav__notifications, .nav__notifications:hover, .nav__notifications div:hover {
+    background: unset;
+    color: unset;
+}
 
-nav a:hover
-{
+/* Need to be careful not to style the user icon, which is also an 'a' */
+.nav__links a:hover, .nav__footer a:hover, .nav__notifications:hover {
   background: #3a3a3a;
 }
 
-.nav__footer
-{
-  background: #272727 !important;
+/* Keep the default white discord icon at all times */
+.discord-link:hover img:nth-of-type(1) {
+    opacity: 1
 }
+
+.discord-link:hover img:nth-of-type(2) {
+    opacity: 0
+}
+
+/* List counter/numbers */
+.list {
+    /* Creates a counter and resets it for every list */
+    counter-reset: listcount;
+}
+
+.list tr td.row__title a:before {
+    /* Increments the counter by one then uses that to insert the current count */
+    counter-increment: listcount;
+    content: counter(listcount) " | ";
+}
+
 
 table 
 {
@@ -37,15 +81,37 @@ table
   color: #000;
 }
 
-.list {color:#000;font-family: 'Open Sans', sans-serif;} /* color Text in rows */
-.list a {color:#000;font-family: 'Open Sans', sans-serif;} /* color Anime Title */
+/* Styles the list names (Watching, Plan to Watch, etc) */
+#lists h3 {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Disables the color assigned to list items so that the next declarations will be applied */
+.rtitle {
+    color: unset;
+}
+
+/* color Text in rows */
+.list {
+    color:#000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* color Anime Title */
+.list a {
+    color:#000;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .list tr:hover 
 {
   color:#FFF;
   background-color:rgba(63, 63, 63, 1);
 }
 
-.list tr:hover a{color:#FFF;} /* Title color a hover */
+/* Anime title text color when hovered over */
+.list tr:hover a{color:#FFF;}
 .plus:hover {color:#FFF;}
 
 .list_wrapper
@@ -64,24 +130,25 @@ table
   display:none;
 }
 
-.list tr
-{
-  background:-225px no-repeat;
+/* Relocates the cover images somewhere out of sight */
+.list tr {
+  background: -300px no-repeat;
 }
 
+/* Handles cover images */
 .row__type
 {
-  background:0px no-repeat;
-  background-size:cover;
+  background: 0px no-repeat;
+  background-size: cover;
   background-image: inherit;
   display: none;
   position: fixed;
   top: 140px;
   height: 350px;
-  font-size:0;
+  font-size: 0;
   width: calc( 350px * 0.67771084337); 
   margin-left: 170px;
-  box-shadow:4px 4px 8px rgba(0,0,0,.3);
+  box-shadow: 4px 4px 8px rgba(0,0,0,.3);
 }
 
 .rtitle:hover .row__type
@@ -89,12 +156,13 @@ table
   display:block;
 }
 
+/* Handles the custom images */
 .row__type:after
 {
   content: "";
   width: 450px;
   height: calc( 450px / 1.77304964539);
-  display:block;
+  display: block;
   margin-top: 350px;
   margin-left: -110px;
 }
