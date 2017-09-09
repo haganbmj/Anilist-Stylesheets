@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "sass-lint -v -q",
-    "build": "node-sass src -o css",
+    "build": "node-sass src -o css --error-bell",
     "watch": "node-sass -w src -o css"
   },
   "repository": {

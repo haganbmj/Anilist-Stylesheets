@@ -16,12 +16,12 @@ git config user.name "Travis-CI"
 git config user.email "travis@travis-ci.com"
 
 # Store some details about the commit that triggered the build.
-SHA=$(git rev-parse --verify HEAD)
 COMMIT_MESSAGE=$(git log --oneline -1)
 
 cd css
 
 git init
+cp ../.travis/gh-pages-readme.md ./readme.md
 git add . -f
-git commit -m "gh-pages: $COMMIT_MESSAGE ($SHA)"
+git commit --allow-empty -m "$COMMIT_MESSAGE"
 git push --force --quiet "https://$GH_TOKEN@$REPO" master:gh-pages > /dev/null 2>&1
