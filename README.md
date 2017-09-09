@@ -1,4 +1,6 @@
 # Anilist-Stylesheets
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/haganbmj/Anilist-Stylesheets.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/haganbmj/Anilist-Stylesheets.svg?branch=master)](https://travis-ci.org/haganbmj/Anilist-Stylesheets)
 
 Stylesheets for use with [anilist.co](http://anilist.co).
