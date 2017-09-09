@@ -1,0 +1,25 @@
+{
+  "name": "anilist-stylesheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "sass-lint -v -q",
+    "build": "node-sass src -o css",
+    "watch": "node-sass -w src -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haganbmj/Anilist-Stylesheets.git"
+  },
+  "author": "Brendan Hagan (haganbmj)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haganbmj/Anilist-Stylesheets/issues"
+  },
+  "homepage": "https://github.com/haganbmj/Anilist-Stylesheets#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass-lint": "^1.11.1"
+  }
+}
