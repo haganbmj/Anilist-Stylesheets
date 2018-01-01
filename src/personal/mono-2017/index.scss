@@ -1,0 +1,7 @@
+@import 'palette';
+@import '../../common/normalize';
+@import 'sidebar';
+
+body {
+    background-color: $primary-background-color;
+}

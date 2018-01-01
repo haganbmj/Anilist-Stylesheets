@@ -1,0 +1,8 @@
+@import 'palette';
+
+$nav-background: $primary-background-color;
+$nav-accent-background: $secondary-background-color;
+$nav-color: $primary-text-color;
+$nav-accent-color: $highlight-color;
+
+@import '../../common/sidebar';

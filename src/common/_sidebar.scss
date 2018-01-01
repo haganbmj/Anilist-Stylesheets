@@ -1,0 +1,35 @@
+$nav-background: unset !default;
+$nav-accent-background: unset !default;
+$nav-color: unset !default;
+$nav-accent-color: unset !default;
+
+
+.nav {
+    background: $nav-background;
+    color: $nav-color;
+
+    .nav__links {
+        div {
+            color: unset;
+        }
+
+        a:hover, a:hover * {
+            background: $nav-accent-background;
+            color: $nav-accent-color;
+        }
+    }
+
+    .nav__notifications, .nav__footer, .nav__logo {
+        background: unset;
+        color: unset;
+
+        &:hover, &:hover i {
+            background: unset;
+            color: $nav-accent-color;
+        }
+
+        .nav__sml {
+            background: unset;
+        }
+    }
+}
