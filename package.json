@@ -19,16 +19,16 @@
   "license": "MIT",
   "devDependencies": {
     "connect": "^3.6.5",
-    "eslint": "^4.12.1",
+    "eslint": "^4.14.0",
     "eslint-config-xo-space": "^0.17.0",
     "glob-watcher": "^4.0.0",
     "http-proxy": "^1.16.2",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.7.2",
     "node-sass-middleware": "^0.11.0",
     "npm-run-all": "^4.1.2",
-    "sass-lint": "^1.11.1",
+    "sass-lint": "^1.12.1",
     "serve-static": "^1.13.1",
-    "ws": "^3.3.2"
+    "ws": "^3.3.3"
   },
   "eslintConfig": {
     "extends": "xo-space/esnext"
