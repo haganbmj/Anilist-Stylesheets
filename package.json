@@ -20,7 +20,7 @@
   "devDependencies": {
     "connect": "^3.6.5",
     "eslint": "^4.14.0",
-    "eslint-config-xo-space": "^0.17.0",
+    "eslint-config-xo-space": "^0.18.0",
     "glob-watcher": "^4.0.0",
     "http-proxy": "^1.16.2",
     "node-sass": "^4.7.2",
