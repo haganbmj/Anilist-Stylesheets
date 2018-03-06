@@ -1,0 +1,23 @@
+.list .rtitle {
+  background: unset;
+  background-image: unset; }
+
+.nav {
+  background: #282828;
+  color: #f8f8f2; }
+  .nav .nav__links div {
+    color: unset; }
+  .nav .nav__links a:hover, .nav .nav__links a:hover * {
+    background: #444444;
+    color: #f2f2f2; }
+  .nav .nav__notifications, .nav .nav__footer, .nav .nav__logo {
+    background: unset;
+    color: unset; }
+    .nav .nav__notifications:hover, .nav .nav__notifications:hover i, .nav .nav__footer:hover, .nav .nav__footer:hover i, .nav .nav__logo:hover, .nav .nav__logo:hover i {
+      background: unset;
+      color: #f2f2f2; }
+    .nav .nav__notifications .nav__sml, .nav .nav__footer .nav__sml, .nav .nav__logo .nav__sml {
+      background: unset; }
+
+body {
+  background-color: #282828; }
